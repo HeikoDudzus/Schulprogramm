@@ -141,6 +141,7 @@ a:focus {
     font-family: sans-serif;
     line-height: 1.3;
 
+    display: none;
     width: 780px;
     padding: 10px 10px 0;
     margin: 20px auto;
