@@ -154,6 +154,16 @@ a:focus {
     margin-bottom: 10px;
 }
 
+.impress-not-supported .step {
+    position: relative;
+    opacity: 1;
+    margin: 20px auto;
+}
+
+.impress-not-supported .fallback-message {
+    display: block;
+}
+
 .impress-supported .fallback-message {
     display: none;
 }
