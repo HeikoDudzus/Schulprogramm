@@ -2074,7 +2074,10 @@
 	</div>
 	
 	<script>
-		if("ontouchstart" in document.documentElement) {
+		var isIE = /*@cc_on!@*/false || !!document.documentMode;
+		var isEdge = !isIE && !!window.StyleMedia;
+		
+		if("ontouchstart" in document.documentElement || isIE || isEdge) {
 			document.getElementById("impress").innerHTML="<p class=\"step\">Lesen Sie das Schulprogramm mit Ihrem Gerät und Browser <a href=\"https://gingkoapp.com/s6m1yt\">hier.</a></p>";
 		}
 	</script>
