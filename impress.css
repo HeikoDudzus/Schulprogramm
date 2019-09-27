@@ -166,7 +166,7 @@ a:focus {
 */
 
 .step {
-	cursor: pointer;
+	/*cursor: pointer;*/
     position: relative;
     width: 900px;
     padding: 40px;
@@ -377,6 +377,7 @@ p {
 .impress-on-schulprogramm #leitsatz-6
 {
     opacity: 1;
+	cursor: pointer;
 }
 
 
