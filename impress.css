@@ -166,6 +166,7 @@ a:focus {
 */
 
 .step {
+	cursor: pointer;
     position: relative;
     width: 900px;
     padding: 40px;
